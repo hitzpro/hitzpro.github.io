@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    gap: 20px; /* Jarak antara elemen */
+    min-height: 100vh;
+    background: url('pemandangan.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    flex: 1; /* Membagi lebar secara merata */
+    border: 1px solid #2f3f61;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    backdrop-filter: blur(15px);
+}
+
+.container2{
+    flex: 1;
+    border: 1px solid #2f3f61;
+    text-align: center;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: aqua;
+}
+.Foto{
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 20%;
+    max-height: 30%;
+    border: 2px solid rgb(57, 69, 69);
+}
+.Foto:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+h2:hover{
+    cursor: default;
+}
+.Data:hover{
+
+}
+p:hover{
+    cursor: default;
+
+}
+
+.Deskripsi{
+    font-size: 12px;
+    text-align: justify;
+    margin: 10%;
+    color: rgb(0, 0, 0)
+}
+
+h4{
+    text-align: center;
+    background-color: aqua;
+    max-width: 20%;
+    padding: 5px;
+    margin: 10%;
+    border-radius: 8px;
+    
+}
+h4:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+
+.List{
+    text-align: left;
+    margin: 10%;
+    color: rgb(210, 234, 234);
+    font-size: 14px;
+
+}
+ul{
+    font-size: 12px;
+}
+.Hobi{
+    text-align: left;
+    margin: 10%;
+    color: rgb(210, 234, 234);
+    font-size: 14px;
+
+}
